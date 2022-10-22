@@ -78,7 +78,10 @@
 .card--button:hover{
     cursor: pointer;
     background-color:  white;
-    color:  hsl(25, 97%, 53%);
+    color:  hsl(25, 97%, 53%);    
+}
 
-    
+.card--checked{
+    background-color: hsl(217, 12%, 63%) ;
+    color: white;
 }
