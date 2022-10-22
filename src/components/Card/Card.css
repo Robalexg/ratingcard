@@ -1,0 +1,84 @@
+.card--container{
+    background: rgb(37,45,55);
+    background: linear-gradient(180deg, rgba(37,45,55,1) 0%, rgba(23,30,40,1) 35%);
+    width: 25em;
+    height: auto;
+    border-radius: 2em;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 2em;
+    justify-content: flex-start;
+}
+
+.card--starContainer{
+    background-color: #1e313f;
+    border-radius: 50%;
+    max-width: fit-content;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card--star{
+    width: 1.1em;
+}
+
+.card--title{
+    font-weight: 700;
+    color: white;
+    margin-top: 1.5em;
+    font-size: 1.7em;
+}
+
+.card--desc{
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+    margin-top: 1em;
+    font-size: .9em;
+    line-height: 1.8em;
+}
+
+.card--ratingContainer{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-top: 1.5em;
+    color: hsl(217, 12%, 63%);
+}
+
+.card--rating{
+    background-color: #1e313f;
+    border-radius: 50%;
+    padding: .8em 1.2em;
+    max-width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card--button{
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    border:none;
+    font-family: 'Overpass', sans-serif;
+    font-size: 1em;
+    margin-top: 1.5em;
+    padding: .8em 0;
+    border-radius: 3em;
+    text-align: center;
+}
+
+.card--rating:hover{
+    background-color:  hsl(25, 97%, 53%);
+    color:white;
+    cursor: pointer;
+}
+
+.card--button:hover{
+    cursor: pointer;
+    background-color:  white;
+    color:  hsl(25, 97%, 53%);
+
+    
+}
