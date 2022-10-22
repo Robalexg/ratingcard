@@ -1,0 +1,42 @@
+.subcard--container{
+    background: rgb(37,45,55);
+    background: linear-gradient(180deg, rgba(37,45,55,1) 0%, rgba(23,30,40,1) 35%);
+    width: 25em;
+    height: 26em;
+    border-radius: 2em;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 2em;
+    justify-content: flex-start;
+}
+
+.subcard--image{
+    width: 10em;
+    align-self: center;
+    margin-top: 1em;
+}
+
+.subcard--ratingText{
+    color:  hsl(25, 97%, 53%);
+    font-size: .9em;
+    align-self: center;
+    background-color: #1e313f;
+    padding: .5em 1.5em;
+    border-radius: 2em;
+    margin-top: 2em;
+}
+
+.subcard--title{
+    color: white;
+    align-self: center;
+    font-size: 1.7em;
+    margin-top: 1.5em;
+}
+
+.subcard--desc{
+    color: hsl(217, 12%, 63%);
+    align-self: center;
+    text-align: center;
+    margin-top: 1em;
+    font-size: .93em;
+}
